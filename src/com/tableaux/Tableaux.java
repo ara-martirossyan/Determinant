@@ -5,8 +5,8 @@ import java.util.Random;
 public class Tableaux {
 
 	public static void main(String[] args) {
-		int[][] m = new int[3][3];		
-		populateMatrix(100, m);
+		int[][] m = new int[10][10];		
+		populateMatrix(1000, m);
 		printMatrix(m);
 		System.out.println("");
 		System.out.println("detM = " + determinant(m));
